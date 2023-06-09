@@ -4,7 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/login.css" />
     <title>Login</title>
   </head>
-  <body></body>
+  <body>
+    <h3></h3>
+    <div class="container">
+      <header>
+        <img src="./assets/imgs/logo.png" class="logo" />
+      </header>
+      <form class="form">
+        <label for="email" class="email">
+          <span class="email-span">Endereço de Email</span>
+          <div class="input-email-container">
+            <i class="bi bi-envelope"></i>
+            <input
+              type="email"
+              id="email"
+              class="input-email"
+              placeholder="Insira seu email"
+              autofocus
+            />
+          </div>
+        </label>
+        <label for="password" class="password">
+          <span class="password-span">Senha</span>
+          <div class="input-password-container">
+            <i class="bi bi-lock-fill"></i>
+            <input
+              type="password"
+              id="password"
+              class="input-password"
+              placeholder="*************"
+            />
+          </div>
+        </label>
+        <button type="submit" class="btn">Entrar</button>
+      </form>
+      <footer>
+        <span
+          >não tem uma conta?
+          <a href="#" class="footer-link">Cadastre-se!</a></span
+        >
+      </footer>
+    </div>
+  </body>
 </html>
