@@ -1,0 +1,23 @@
+body {
+    background-color: #0d1117;
+  }
+  
+  .iframe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .iframe-container iframe {
+    display: block;
+    margin: 0 auto 2rem auto;
+
+  }
+  
+  h1 {
+    color: #fccb39;
+    display: block;
+    margin: 20px 0px;
+  }
