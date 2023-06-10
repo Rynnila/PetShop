@@ -97,3 +97,14 @@ ul img {
 .footer-contact li {
   margin-bottom: 5px;
 }
+.linkLogin{
+  text-decoration: none;
+  color: white;
+}
+.linkLogin:hover{
+  color: #000000;
+}
+.linkCadastro{
+  text-decoration: none;
+  color: #000;
+}
