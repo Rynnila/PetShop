@@ -46,8 +46,8 @@ body {
   font-size: 1rem;
   line-height: 1.25rem;
   bottom: 15px;
-  height: 65px;
-  width: 135px;
+  height: 8vh;
+  width: 15vw;
   font-weight: 600;
   color: #000;
   background-color: #ffc107;
@@ -60,8 +60,8 @@ body {
 #btnProdutos:hover {
   color: #fff;
   background-color: #ffa600e3;
-  height: 70px;
-  width: 140px;
+  height: 8.7vh;
+  width: 15.7vw;
   cursor: pointer;
   transition: 300ms;
 }
