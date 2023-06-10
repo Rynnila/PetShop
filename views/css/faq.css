@@ -1,0 +1,25 @@
+.faq {
+    max-width: 800px;
+    height: 100%;
+    border-radius: 1.0%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0318382a;
+}
+h1{
+    color: #fccb39;
+}
+.cardfaq{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+body {
+    background-color: #0d1117;
+}
+.blockquote-footer{
+    color: #858484;
+}
+.card {
+  background-color: #212529;
+  color: #f5d98d; /* Substitua pelo valor desejado */
+}
