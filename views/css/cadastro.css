@@ -11,7 +11,7 @@
 body {
   height: 100vh;
   background-color: #0d1117;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 h3 {
   border: solid 1px #ffc107;
@@ -34,7 +34,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  margin: 20px 0 0 0;
 }
 h2 {
   color: #fff;
@@ -48,18 +48,16 @@ h2 {
   flex-direction: column;
   align-items: stretch;
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
   gap: 1rem;
   margin-top: 2.5rem;
 }
-.email,
-.password {
+.label {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
 }
-.email-span,
-.password-span {
+.input-span {
   color: #fff;
   font-weight: 600;
   line-height: 1.25rem;
@@ -69,8 +67,7 @@ button {
   border: 0;
   border-radius: 5px;
 }
-.input-email-container,
-.input-password-container {
+.input-container {
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -79,16 +76,13 @@ button {
   border-radius: 5px;
   transition: 0.3s;
 }
-.input-email-container:focus-within,
-.input-password-container:focus-within {
+.input-container:focus-within {
   box-shadow: inset 0 0 0 calc(2px + 0px) #ffc107;
 }
-.input-email-container i,
-.input-password-container i {
+.input-container i {
   font-size: 24px;
 }
-.input-email,
-.input-password {
+.input {
   font-size: 0.875rem;
   line-height: 1rem;
   color: #ffc107;
@@ -99,8 +93,8 @@ button {
 i {
   color: #fff;
 }
-.input-email::placeholder,
-.input-password::placeholder {
+.input::placeholder,
+.input::placeholder {
   color: #ffc107;
 }
 .btn {
