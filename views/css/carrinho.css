@@ -1,0 +1,36 @@
+.msg{ 
+    color: #ebb608;
+    font-size: 15px;
+    text-align: center;
+}
+
+.cart-text{
+    color: #ebb608;
+    text-align: center;
+    margin: 5%;
+}
+
+#listaCarrinho li{
+    margin: 2%;
+    color: white;
+    font-size: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
+li img {
+    width: 100px;
+    height: 100px;
+}
+
+#listaCarrinho div{
+    color: white;
+    text-align: center;
+    margin: 2%;
+}
+
+#listaCarrinho button{
+    margin: 0 1%;
+}

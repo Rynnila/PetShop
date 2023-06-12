@@ -13,8 +13,9 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/nav-footer.css" />
-    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/nav-footer.css">
+    <link rel="stylesheet" href="./css/carrinho.css">
+    <link rel="stylesheet" href="css/home.css">
     <title>Home</title>
   </head>
   <body>
@@ -57,38 +58,19 @@
               <a href="cadastro.html" class="linkCadastro">Cadastre-se</a>
             </button>
             <a href="carrinho.html">
-              <img
-              class="carrinho"
-              src="./assets/imgs/carrinho.svg"
-              alt="carrinho" />
+                <img
+                class="carrinho"
+                src="./assets/imgs/carrinho.svg"
+                alt="carrinho" />
             </a>
           </div>
         </div>
       </div>
     </header>
 
-    <div id="imgHome">
-      <img src="./assets/imgs/imgHome/home.png" id="imgHomeGato" />
-      <div id="textHome">
-        <h2>Bem-vindo ao nosso Petshop!</h2>
-        <p>
-          Encontre tudo o pet precisa em um só lugar. Temos uma variedade de
-          produtos que são cuidadosamente selecionados para atender às
-          necessidades e mimar os nossos amiguinhos de quatro patas.
-        </p>
-        <p>
-          Dê uma olhada em nossa seleção exclusiva de produtos e descubra o que
-          há de melhor para o seu animal de estimação. Navegue pelas seções e
-          deixe-se encantar por nossa diversidade e qualidade.
-        </p>
-        <p>
-          Explore nossa loja online agora e faça do seu amiguinho o mais feliz
-          de todos!
-        </p>
-        <button type="button" class="btn btn-warning" id="btnProdutos">
-          Pet Produtos
-        </button>
-      </div>
+    <div class="container-lg">
+      <h1 class="cart-text" id="card-text">Itens do Carrinho</h1>
+      <ul id="listaCarrinho"></ul>
     </div>
 
     <footer>
@@ -119,5 +101,9 @@
         </div>
       </div>
     </footer>
+
+  <script src="js/carrinho.js"></script>
+  <!-- <script>window.onload = verCarrinho()</script> -->
+  <script src="js/cart.js"></script>
   </body>
 </html>

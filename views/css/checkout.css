@@ -1,0 +1,14 @@
+.pagamento img:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.pagamento{
+    display: inline-block;
+    margin: 2% 2% 0 0;
+}
+
+.container-lg{
+    text-align: center;
+    min-height: 100%;
+}

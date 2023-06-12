@@ -56,17 +56,19 @@
             <button type="button" class="btn btn-warning">
               <a href="cadastro.html" class="linkCadastro">Cadastre-se</a>
             </button>
-            <img
+            <a href="carrinho.html">
+              <img
               class="carrinho"
               src="./assets/imgs/carrinho.svg"
-              alt="carrinho" />
+              alt="carrinho"/>
+            </a>
           </div>
         </div>
       </div>
     </header>
 
     <div class="container-lg">
-      <div class="highlight bg-primary">Produtos</div>
+      <div class="highlight">Produtos</div>
     </div>
 
     <div class="container-lg">
@@ -84,8 +86,8 @@
                 Golden Seleção Natural - Ração para Cachorro Filhote
               </h5>
               <p class="card-text">Frango e Arroz</p>
-              <p class="card-price">R$ 25,00</p>
-              <button type="submit" class="card-button">
+              <p class="card-price">R$ 34.99</p>
+              <button type="submit" class="card-button" onclick="produtos(1)" id="1">
                 <a class="link" href="#" target="_blank"></a>Pedir
               </button>
             </div>
@@ -102,11 +104,11 @@
               width="250" />
             <div class="card-body">
               <h5 class="card-title">
-                Golden Seleção Natural - Ração para Cachorro Filhote
+                Royal Canin Mini - Ração para Cachorro Filhote
               </h5>
               <p class="card-text">Frango e Arroz</p>
-              <p class="card-price">R$ 25,00</p>
-              <button type="submit" class="card-button">
+              <p class="card-price">R$ 24.99</p>
+              <button type="submit" class="card-button" onclick="produtos(2)" id="2">
                 <a class="link" href="#" target="_blank"></a>Pedir
               </button>
             </div>
@@ -123,11 +125,11 @@
               width="250" />
             <div class="card-body">
               <h5 class="card-title">
-                Golden Seleção Natural - Ração para Cachorro Filhote
+                Brinquedo para Gatos - Rato de Brinquedo
               </h5>
-              <p class="card-text">Frango e Arroz</p>
-              <p class="card-price">R$ 25,00</p>
-              <button type="submit" class="card-button">
+              <p class="card-text"></p>
+              <p class="card-price">R$ 9.99</p>
+              <button type="submit" class="card-button" onclick="produtos(3)" id="3">
                 <a class="link" href="#" target="_blank"></a>Pedir
               </button>
             </div>
@@ -144,11 +146,11 @@
               width="250" />
             <div class="card-body">
               <h5 class="card-title">
-                Golden Seleção Natural - Ração para Cachorro Filhote
+                Origens Premium Especial Class - Ração para Cães Adultos
               </h5>
-              <p class="card-text">Frango e Arroz</p>
-              <p class="card-price">R$ 25,00</p>
-              <button type="submit" class="card-button">
+              <p class="card-text">Carne e Frango</p>
+              <p class="card-price">R$ 173,61</p>
+              <button type="submit" class="card-button" onclick="produtos(4)" id="4">
                 <a class="link" href="#" target="_blank"></a>Pedir
               </button>
             </div>
@@ -165,11 +167,11 @@
               width="250" />
             <div class="card-body">
               <h5 class="card-title">
-                Golden Seleção Natural - Ração para Cachorro Filhote
+                Catnip - Cansei de Ser Gato
               </h5>
-              <p class="card-text">Frango e Arroz</p>
-              <p class="card-price">R$ 25,00</p>
-              <button type="submit" class="card-button">
+              <p class="card-text">2g</p>
+              <p class="card-price">R$ 11,99</p>
+              <button type="submit" class="card-button" onclick="produtos(5)" id="5">
                 <a class="link" href="#" target="_blank"></a>Pedir
               </button>
             </div>
@@ -179,18 +181,18 @@
         <div class="col">
           <div class="card h-100">
             <img
-              src="./assets/imgs/produtos/racao.webp"
+              src="./assets/imgs/produtos/purinpropaln.webp"
               class="card-img-top"
               alt="..."
               height="250"
               width="250" />
             <div class="card-body">
               <h5 class="card-title">
-                Golden Seleção Natural - Ração para Cachorro Filhote
+                Purina Pro Plan - Ração úmida para Gatos Sterilized
               </h5>
-              <p class="card-text">Frango e Arroz</p>
-              <p class="card-price">R$ 25,00</p>
-              <button type="submit" class="card-button">
+              <p class="card-text">Sachê sabor Frango 85g</p>
+              <p class="card-price">R$ 6,99</p>
+              <button type="submit" class="card-button" onclick="produtos(6)" id="">
                 <a class="link" href="#" target="_blank"></a>Pedir
               </button>
             </div>
@@ -200,18 +202,18 @@
         <div class="col">
           <div class="card h-100">
             <img
-              src="./assets/imgs/produtos/racao.webp"
+              src="./assets/imgs/produtos/tapete.webp"
               class="card-img-top"
               alt="..."
               height="250"
               width="250" />
             <div class="card-body">
               <h5 class="card-title">
-                Golden Seleção Natural - Ração para Cachorro Filhote
+                Tapete Higiênico Petz
               </h5>
-              <p class="card-text">Frango e Arroz</p>
-              <p class="card-price">R$ 25,00</p>
-              <button type="submit" class="card-button">
+              <p class="card-text">Carvão Ativado para Cães</p>
+              <p class="card-price">R$ 25,99</p>
+              <button type="submit" class="card-button" onclick="produtos(7)" id="">
                 <a class="link" href="#" target="_blank"></a>Pedir
               </button>
             </div>
@@ -221,18 +223,18 @@
         <div class="col">
           <div class="card h-100">
             <img
-              src="./assets/imgs/produtos/racao.webp"
+              src="./assets/imgs/produtos/racaogranplus.webp"
               class="card-img-top"
               alt="..."
               height="250"
               width="250" />
             <div class="card-body">
               <h5 class="card-title">
-                Golden Seleção Natural - Ração para Cachorro Filhote
+                GranPlus Gourmet - Ração para Cães Adultos de Médio e Grande Porte 
               </h5>
-              <p class="card-text">Frango e Arroz</p>
-              <p class="card-price">R$ 25,00</p>
-              <button type="submit" class="card-button">
+              <p class="card-text">Ovelha e Arroz - 3kg</p>
+              <p class="card-price">R$ 199.99</p>
+              <button type="submit" class="card-button" onclick="produtos(8)" id="">
                 <a class="link" href="#" target="_blank"></a>Pedir
               </button>
             </div>
@@ -270,6 +272,7 @@
       </div>
     </footer>
 
+    <script src="js/carrinho.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
